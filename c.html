@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../cifra+base/imgs/cod.png" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../cifra+base/c.css">
+    <title>Codificando...</title>
+</head>
+<body>
+    <section id="inputPrincipal">
+    <div class="container">
+        <h1>
+        <a href="#menu">?</a>
+        </h1>
+        
+    <div class="popover" id="menu">
+        <div class = 'content'>
+        <a href="#" class="close"></a>
+        <div class = 'nav'>
+        <ul class = 'nav_list'>
+
+            <div class = 'nav_list_item'>
+                <p>Cifra de César + Base 64</p><br>
+                <textarea name="mensagemEntrada" placeholder="Digite sua mensagem..." id="mensagemEntrada" cols="100" rows="3"></textarea> 
+            
+            <section id="selectPrincipal">
+                <label for="selectLanguage">Selecione o tipo de Criptografia</label>
+                    <select name="selectLanguage" id="selectLanguage">
+                        <option value="choice">Escolha uma liguagem</option>
+                        <option value="base64">Base 64</option>
+                        <option value="cifraDeCesar">Cifra de César</option>
+                    </select> 
+            </section>
+
+            <section id="incrementoPrincipal" class="incremento invisivel">   
+                <label for="incremento">Incremento</label>
+                <input type="number" name="incremento" id="incremento">
+            </section>
+            
+            <section id="buttonP">
+                <button class="btns invisivel" id="buttonC">Codificar</button>
+                <button class="btns invisivel" id="buttonD" >Decodificar</button>   
+            </section>
+
+            <label for="mensagem" class="digito">Mensagem Codificada⤵ </label>
+            <textarea name="mensagemSaida" placeholder="Mensagem codificada/decodificada" id="mensagemSaida" cols="100" rows="3"></textarea><br>     
+            </div>    
+
+            <script src="../cifra+base/c.js"></script>
+        
+        </div>
+        </section>  
+        </section>   
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+
+</body>
+</html>
+   
